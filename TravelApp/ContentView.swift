@@ -38,15 +38,16 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: "magnifyingglass")
                         .padding(.leading, 8)
+                    
                     TextField("Where do you want to go?", text: $name)
+                        .frame(height: 54)
                     
                     Spacer()
                         
                 }
-                .frame(height: 54)
+                
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundColor(.white)
-            
                 .background(Color(.init(white: 1, alpha: 0.3)))
                 .cornerRadius(10)
                 .padding(16)
