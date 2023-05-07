@@ -19,16 +19,13 @@ struct CategoryDetailWidget: View {
             VStack (alignment: .leading, spacing:0){
                 KFImage(URL(string: place.thumbnail))
                     .resizable()
-                    .frame(
-                       width:UIScreen.main.bounds.width - 50,
-                       height: 300
-                    )
-                    .scaledToFit()
+                    .frame(height: 300)
+                    .scaledToFill()
                 Text(place.name)
-            }
-            .padding(10)
+                    .padding()
+            }.padding()
         .asCardView()
-        }.padding(10)
+        }
     }
 }
 

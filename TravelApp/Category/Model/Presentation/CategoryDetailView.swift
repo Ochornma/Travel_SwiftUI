@@ -9,14 +9,30 @@ import SwiftUI
 
 struct CategoryDetailView: View {
     
-  
+    @ObservedObject private var vm: CategoryDetailViewModel
+    let name: String
+    init(name: String) {
+        self.name = name
+        self.vm = CategoryDetailViewModel(name: name)
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            List{
+                ForEach(vm.places, id:\.self) { place in
+                    CategoryDetailWidget(place: place)
+                    
+                        .listRowBackground(Color.clear)
+                            .listRowSeparator(.hidden)
+                   }
+            }.scrollIndicators(.hidden)
+            .listStyle(PlainListStyle())
     }
 }
 
 struct CategoryDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryDetailView()
+        NavigationView{
+            CategoryDetailView(name: "promise")
+        }
     }
 }
