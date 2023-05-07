@@ -12,6 +12,11 @@
 		B6131D1B29F5DDEC0015308F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6131D1A29F5DDEC0015308F /* Extension.swift */; };
 		B6131D1D29F5E5700015308F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6131D1C29F5E5700015308F /* User.swift */; };
 		B6131D1F29F5E58D0015308F /* CreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6131D1E29F5E58D0015308F /* CreatorsView.swift */; };
+		B642D4EC2A06EB4F00248729 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642D4EB2A06EB4F00248729 /* CategoryDetailView.swift */; };
+		B680EA792A084D8300306A03 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B680EA782A084D8300306A03 /* Kingfisher */; };
+		B680EA7C2A084E7600306A03 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680EA7B2A084E7600306A03 /* Places.swift */; };
+		B680EA812A084F7700306A03 /* CategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680EA802A084F7700306A03 /* CategoryDetailViewModel.swift */; };
+		B680EA832A08505E00306A03 /* CategoryDetailWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680EA822A08505E00306A03 /* CategoryDetailWidget.swift */; };
 		B6DCC30E29F58D9F009C2C8C /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DCC30D29F58D9F009C2C8C /* TravelAppApp.swift */; };
 		B6DCC31029F58D9F009C2C8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DCC30F29F58D9F009C2C8C /* ContentView.swift */; };
 		B6DCC31229F58DA0009C2C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DCC31129F58DA0009C2C8C /* Assets.xcassets */; };
@@ -51,6 +56,10 @@
 		B6131D1A29F5DDEC0015308F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		B6131D1C29F5E5700015308F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B6131D1E29F5E58D0015308F /* CreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsView.swift; sourceTree = "<group>"; };
+		B642D4EB2A06EB4F00248729 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		B680EA7B2A084E7600306A03 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		B680EA802A084F7700306A03 /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		B680EA822A08505E00306A03 /* CategoryDetailWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailWidget.swift; sourceTree = "<group>"; };
 		B6DCC30A29F58D9F009C2C8C /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DCC30D29F58D9F009C2C8C /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
 		B6DCC30F29F58D9F009C2C8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B680EA792A084D8300306A03 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +105,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B642D4EA2A06EB2200248729 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B680EA7A2A084E5700306A03 /* Model */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B680EA7A2A084E5700306A03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B680EA7F2A084F4E00306A03 /* Presentation */,
+				B680EA7E2A084F3400306A03 /* Data */,
+				B680EA7D2A084F1E00306A03 /* Domain */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B680EA7D2A084F1E00306A03 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B680EA7B2A084E7600306A03 /* Places.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B680EA7E2A084F3400306A03 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B680EA7F2A084F4E00306A03 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B642D4EB2A06EB4F00248729 /* CategoryDetailView.swift */,
+				B680EA802A084F7700306A03 /* CategoryDetailViewModel.swift */,
+				B680EA822A08505E00306A03 /* CategoryDetailWidget.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		B6DCC30129F58D9F009C2C8C = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +171,8 @@
 		B6DCC30C29F58D9F009C2C8C /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				B642D4EA2A06EB2200248729 /* Category */,
 				B6DCC34629F5BBB6009C2C8C /* Home */,
-				B6DCC34129F5B2CA009C2C8C /* Models */,
 				B6DCC33C29F58F65009C2C8C /* Utils */,
 				B6DCC30D29F58D9F009C2C8C /* TravelAppApp.swift */,
 				B6DCC30F29F58D9F009C2C8C /* ContentView.swift */,
@@ -179,6 +232,7 @@
 		B6DCC34629F5BBB6009C2C8C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B6DCC34129F5B2CA009C2C8C /* Models */,
 				B6DCC33F29F5B244009C2C8C /* CategoriesView.swift */,
 				B6DCC34729F5BC0F009C2C8C /* DestinationsView.swift */,
 				B6131D1629F5DCA10015308F /* PopularPlacesView.swift */,
@@ -203,6 +257,9 @@
 			dependencies = (
 			);
 			name = TravelApp;
+			packageProductDependencies = (
+				B680EA782A084D8300306A03 /* Kingfisher */,
+			);
 			productName = TravelApp;
 			productReference = B6DCC30A29F58D9F009C2C8C /* TravelApp.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +332,9 @@
 				Base,
 			);
 			mainGroup = B6DCC30129F58D9F009C2C8C;
+			packageReferences = (
+				B680EA772A084D8300306A03 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B6DCC30B29F58D9F009C2C8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -317,11 +377,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B680EA832A08505E00306A03 /* CategoryDetailWidget.swift in Sources */,
 				B6131D1D29F5E5700015308F /* User.swift in Sources */,
+				B680EA812A084F7700306A03 /* CategoryDetailViewModel.swift in Sources */,
 				B6131D1929F5DD440015308F /* Restaurant.swift in Sources */,
 				B6DCC31729F58DA0009C2C8C /* Persistence.swift in Sources */,
 				B6DCC33E29F58F75009C2C8C /* Colors.swift in Sources */,
 				B6131D1B29F5DDEC0015308F /* Extension.swift in Sources */,
+				B642D4EC2A06EB4F00248729 /* CategoryDetailView.swift in Sources */,
 				B6DCC34529F5B9D4009C2C8C /* Destinations.swift in Sources */,
 				B6DCC31A29F58DA0009C2C8C /* TravelApp.xcdatamodeld in Sources */,
 				B6DCC34829F5BC0F009C2C8C /* DestinationsView.swift in Sources */,
@@ -331,6 +394,7 @@
 				B6131D1729F5DCA10015308F /* PopularPlacesView.swift in Sources */,
 				B6DCC34329F5B2E0009C2C8C /* Category.swift in Sources */,
 				B6131D1F29F5E58D0015308F /* CreatorsView.swift in Sources */,
+				B680EA7C2A084E7600306A03 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +713,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B680EA772A084D8300306A03 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B680EA782A084D8300306A03 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B680EA772A084D8300306A03 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B6DCC31829F58DA0009C2C8C /* TravelApp.xcdatamodeld */ = {
