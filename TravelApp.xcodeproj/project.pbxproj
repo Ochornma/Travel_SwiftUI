@@ -15,6 +15,10 @@
 		B61DDD272A086C4500BB333C /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B61DDD262A086C4500BB333C /* CombineMoya */; };
 		B61DDD2D2A086D2F00BB333C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD2C2A086D2F00BB333C /* NetworkService.swift */; };
 		B61DDD2F2A086D3800BB333C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD2E2A086D3800BB333C /* API.swift */; };
+		B61DDD312A08776900BB333C /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD302A08776900BB333C /* PlacesData.swift */; };
+		B61DDD342A08782300BB333C /* CategoryRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD332A08782300BB333C /* CategoryRepositoryImpl.swift */; };
+		B61DDD362A08786A00BB333C /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD352A08786A00BB333C /* CategoryRepository.swift */; };
+		B61DDD382A0883F500BB333C /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61DDD372A0883F500BB333C /* Navigation.swift */; };
 		B642D4EC2A06EB4F00248729 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642D4EB2A06EB4F00248729 /* CategoryDetailView.swift */; };
 		B680EA792A084D8300306A03 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B680EA782A084D8300306A03 /* Kingfisher */; };
 		B680EA7C2A084E7600306A03 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680EA7B2A084E7600306A03 /* Places.swift */; };
@@ -61,6 +65,10 @@
 		B6131D1E29F5E58D0015308F /* CreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsView.swift; sourceTree = "<group>"; };
 		B61DDD2C2A086D2F00BB333C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B61DDD2E2A086D3800BB333C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B61DDD302A08776900BB333C /* PlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
+		B61DDD332A08782300BB333C /* CategoryRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepositoryImpl.swift; sourceTree = "<group>"; };
+		B61DDD352A08786A00BB333C /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
+		B61DDD372A0883F500BB333C /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		B642D4EB2A06EB4F00248729 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		B680EA7B2A084E7600306A03 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		B680EA802A084F7700306A03 /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
@@ -122,6 +130,7 @@
 		B61DDD292A086CA400BB333C /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				B61DDD332A08782300BB333C /* CategoryRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -129,6 +138,7 @@
 		B61DDD2A2A086CC200BB333C /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				B61DDD352A08786A00BB333C /* CategoryRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -140,6 +150,14 @@
 				B61DDD2E2A086D3800BB333C /* API.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B61DDD322A08780700BB333C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B61DDD302A08776900BB333C /* PlacesData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B642D4EA2A06EB2200248729 /* Category */ = {
@@ -164,6 +182,7 @@
 		B680EA7E2A084F3400306A03 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B61DDD322A08780700BB333C /* Model */,
 				B61DDD292A086CA400BB333C /* Repository */,
 			);
 			path = Data;
@@ -246,6 +265,7 @@
 			children = (
 				B6DCC33D29F58F75009C2C8C /* Colors.swift */,
 				B6131D1A29F5DDEC0015308F /* Extension.swift */,
+				B61DDD372A0883F500BB333C /* Navigation.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -414,16 +434,20 @@
 				B680EA832A08505E00306A03 /* CategoryDetailWidget.swift in Sources */,
 				B6131D1D29F5E5700015308F /* User.swift in Sources */,
 				B680EA812A084F7700306A03 /* CategoryDetailViewModel.swift in Sources */,
+				B61DDD382A0883F500BB333C /* Navigation.swift in Sources */,
 				B6131D1929F5DD440015308F /* Restaurant.swift in Sources */,
 				B6DCC31729F58DA0009C2C8C /* Persistence.swift in Sources */,
 				B6DCC33E29F58F75009C2C8C /* Colors.swift in Sources */,
 				B6131D1B29F5DDEC0015308F /* Extension.swift in Sources */,
 				B642D4EC2A06EB4F00248729 /* CategoryDetailView.swift in Sources */,
 				B6DCC34529F5B9D4009C2C8C /* Destinations.swift in Sources */,
+				B61DDD312A08776900BB333C /* PlacesData.swift in Sources */,
 				B6DCC31A29F58DA0009C2C8C /* TravelApp.xcdatamodeld in Sources */,
 				B6DCC34829F5BC0F009C2C8C /* DestinationsView.swift in Sources */,
 				B6DCC31029F58D9F009C2C8C /* ContentView.swift in Sources */,
+				B61DDD342A08782300BB333C /* CategoryRepositoryImpl.swift in Sources */,
 				B6DCC30E29F58D9F009C2C8C /* TravelAppApp.swift in Sources */,
+				B61DDD362A08786A00BB333C /* CategoryRepository.swift in Sources */,
 				B6DCC34029F5B244009C2C8C /* CategoriesView.swift in Sources */,
 				B61DDD2F2A086D3800BB333C /* API.swift in Sources */,
 				B6131D1729F5DCA10015308F /* PopularPlacesView.swift in Sources */,

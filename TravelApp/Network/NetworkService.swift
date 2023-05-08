@@ -10,6 +10,9 @@ import CombineMoya
 import Moya
 import Combine
 
+typealias NetworkingService = Networking<API>
+
+
 protocol NetworkingProtocol{
     associatedtype Target:TargetType
     func request<T: Codable>( _ target: Target) -> Future<T, Error>
@@ -20,7 +23,7 @@ final class Networking<Target: TargetType>:NetworkingProtocol{
     private let provider: MoyaProvider<Target>
     private var cancellable = Set<AnyCancellable>()
     
-    init(provider: MoyaProvider<Target> = MoyaProvider<Target>()) {
+    init(provider: MoyaProvider<Target> = MoyaProvider<Target>(plugins: [NetworkLoggerPlugin()])) {
         self.provider = provider
     }
     

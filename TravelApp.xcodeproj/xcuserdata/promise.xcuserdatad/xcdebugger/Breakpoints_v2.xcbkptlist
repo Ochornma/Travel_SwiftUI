@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7269C77A-D0D2-423D-8BE4-C42CCE3F6012"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B2C2ACB-ECD5-4032-A5D5-159D627EFD2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CategoryDetailViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 43001765d376c66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of TravelApp.CategoryDetailViewModel.places : Swift.Array&lt;TravelApp.Places&gt;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 234ca9dbb9d0606d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.places.getter : Swift.Array&lt;TravelApp.Places&gt;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 89c81e5ee291a471"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.places.setter : Swift.Array&lt;TravelApp.Places&gt;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 26ac74a4c8a5416e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.places.modify : Swift.Array&lt;TravelApp.Places&gt;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 690d44e6fd35a93e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.places.modify : Swift.Array&lt;TravelApp.Places&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 38e6827868b923fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.$places.getter : Combine.Published&lt;Swift.Array&lt;TravelApp.Places&gt;&gt;.Publisher"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - ebcae32565f1efc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.$places.setter : Combine.Published&lt;Swift.Array&lt;TravelApp.Places&gt;&gt;.Publisher"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 32b7739549c430f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.$places.modify : Combine.Published&lt;Swift.Array&lt;TravelApp.Places&gt;&gt;.Publisher"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 4e7cd43c0d9b53db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.$places.modify : Combine.Published&lt;Swift.Array&lt;TravelApp.Places&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "69A74465-5A08-40B3-98EC-669E8BBDB679 - 4fa6ffae779b5838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelApp.CategoryDetailViewModel.init(name: Swift.String) -&gt; TravelApp.CategoryDetailViewModel"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14CA6F11-4AF4-4919-9C51-85EEB7650647"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D974FA38-9AEC-4A44-A4A1-60D2CEBD09B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D974FA38-9AEC-4A44-A4A1-60D2CEBD09B5 - cf375e6824ac7959"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TravelApp.Places&gt;, TravelApp.Places, &lt;&lt;opaque return type of SwiftUI.View.listRowSeparator(_: SwiftUI.Visibility, edges: SwiftUI.VerticalEdge.Set) -&gt; some&gt;&gt;.0&gt; in TravelApp.CategoryDetailView.body.getter : some"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "D974FA38-9AEC-4A44-A4A1-60D2CEBD09B5 - 3016d91bd6525d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TravelApp.Places) -&gt; &lt;&lt;opaque return type of SwiftUI.View.listRowSeparator(_: SwiftUI.Visibility, edges: SwiftUI.VerticalEdge.Set) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TravelApp.Places&gt;, TravelApp.Places, &lt;&lt;opaque return type of SwiftUI.View.listRowSeparator(_: SwiftUI.Visibility, edges: SwiftUI.VerticalEdge.Set) -&gt; some&gt;&gt;.0&gt; in TravelApp.CategoryDetailView.body.getter : some"
+                  moduleName = "TravelApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/promise/Documents/TravelApp/TravelApp/Category/Presentation/CategoryDetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02530F2C-4A9C-4559-AA09-A6FCB431538C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1BAF279-3C49-47FA-8963-ADE0F3AFF7EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A1E32A0-B14C-44EC-94CC-1D98265768EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F14F3403-2CFF-4F1A-825E-83BC1E39BACF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelApp/Category/Presentation/CategoryDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

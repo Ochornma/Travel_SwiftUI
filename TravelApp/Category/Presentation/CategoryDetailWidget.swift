@@ -19,8 +19,9 @@ struct CategoryDetailWidget: View {
             VStack (alignment: .leading, spacing:0){
                 KFImage(URL(string: place.thumbnail))
                     .resizable()
-                    .frame(height: 300)
                     .scaledToFill()
+                    .frame(width: UIScreen.main.bounds.width - 60, height: 300)
+                   
                 Text(place.name)
                     .padding()
             }.padding()

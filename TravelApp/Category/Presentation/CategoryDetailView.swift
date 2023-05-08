@@ -11,6 +11,7 @@ struct CategoryDetailView: View {
     
     @ObservedObject private var vm: CategoryDetailViewModel
     let name: String
+    
     init(name: String) {
         self.name = name
         self.vm = CategoryDetailViewModel(name: name)
@@ -32,7 +33,7 @@ struct CategoryDetailView: View {
 struct CategoryDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            CategoryDetailView(name: "promise")
+            CategoryDetailView(name: "art")
         }
     }
 }

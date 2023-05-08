@@ -14,7 +14,7 @@ enum API{
 
 extension API: TargetType {
     var baseURL: URL {
-        guard let url = URL(string: "https://travel.letsbuildthatapp.com/travel_discovery/") else {
+        guard let url = URL(string: "https://travel.letsbuildthatapp.com/travel_discovery") else {
             fatalError("Base URL is invalid")
         }
         return url
@@ -24,7 +24,7 @@ extension API: TargetType {
     var path: String {
         switch self{
         case .fetchCategory:
-            return "category"
+            return "/category"
         }
     }
     

@@ -22,18 +22,23 @@ struct CategoriesView: View {
             
             HStack {
                 ForEach(categories, id: \.self) { category in
-                    VStack(alignment: .center){
-                        Image(systemName: category.imageName)
-                            .frame(width: 64, height: 64)
-                            .background(Color.white)
-                            .cornerRadius(32)
-                            .foregroundColor(.orange)
-                            
-                        Text(category.name)
-                            .foregroundColor(.white)
-                            .font(.system(size: 12))
-                            .multilineTextAlignment(.center)
-                    }.frame(width: 68)
+                    NavigationLink(destination: NavigationLazyView(CategoryDetailView(name: category.name)),
+                                   label: {
+                        
+                        VStack(alignment: .center){
+                            Image(systemName: category.imageName)
+                                .frame(width: 64, height: 64)
+                                .background(Color.white)
+                                .cornerRadius(32)
+                                .foregroundColor(.orange)
+                                
+                            Text(category.name)
+                                .foregroundColor(.white)
+                                .font(.system(size: 12))
+                                .multilineTextAlignment(.center)
+                        }.frame(width: 68)
+                    })
+                    
                         
 
                 }
